@@ -6,7 +6,7 @@
 <title>Farzad Moloudi, MD — Physician-Scientist, Massachusetts General Hospital</title>
 <meta name="description" content="Farzad Moloudi, MD is a physician-scientist and Research Fellow in the Department of Radiology at Massachusetts General Hospital, working on molecular and translational imaging of cancer with MRI and AI.">
 <meta name="author" content="Farzad Moloudi">
-<link rel="canonical" href="https://farzadmoloudi.github.io/">
+<link rel="canonical" href="https://example.com/">
 
 <!-- Open Graph / link previews -->
 <meta property="og:type" content="profile">
@@ -47,7 +47,8 @@
   "knowsAbout": ["Molecular Imaging", "Magnetic Resonance Imaging", "Translational Oncology", "Pancreatic Cancer", "Artificial Intelligence in Medical Imaging"],
   "sameAs": [
     "https://scholar.google.com/citations?user=Tjou6ZUAAAAJ&hl=en",
-    "https://www.linkedin.com/in/farzad-moloudi-b4422337/"
+    "https://www.linkedin.com/in/farzad-moloudi-b4422337/",
+    "https://www.youtube.com/@farzadmoloudi"
   ]
 }
 </script>
@@ -201,6 +202,15 @@
   .comm-photo .tag{position:absolute;left:14px;bottom:14px;background:color-mix(in srgb,var(--ink) 78%,transparent);color:#fff;font-family:"IBM Plex Mono",monospace;font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:2px;backdrop-filter:blur(2px);}
   .comm-grid p{color:var(--ink-soft);margin:0 0 1em;}
   .comm-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+
+  /* race video (vertical Short) */
+  .video-wrap{margin-top:48px;display:flex;flex-direction:column;align-items:center;}
+  .video-kicker{margin-bottom:18px;}
+  .video-frame{position:relative;width:100%;max-width:338px;aspect-ratio:9/16;overflow:hidden;border-radius:6px;border:1px solid var(--line-strong);background:var(--ink);}
+  .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .video-cap{display:flex;justify-content:space-between;gap:14px;margin-top:12px;width:100%;max-width:338px;color:var(--slate);}
+  .video-cap a{color:var(--signal-ink);text-decoration:none;border-bottom:1px solid var(--signal-tint);padding-bottom:2px;transition:border-color .2s;}
+  .video-cap a:hover{border-color:var(--signal);}
 
   /* contact */
   .contact{text-align:left;}
@@ -405,10 +415,18 @@
           </div>
         </div>
       </div>
+      <div class="video-wrap reveal">
+        <div class="video-kicker mono eyebrow">Race day · 60 seconds</div>
+        <div class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/RufSWLS2Gng" title="Farzad Moloudi — running the B.A.A. 10K 2026 for the Mass General Brigham Cancer Institute" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-cap mono">
+          <span>B.A.A. 10K · Boston · 2026</span>
+          <a href="https://www.youtube.com/shorts/RufSWLS2Gng" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+        </div>
+      </div>
     </div>
   </section>
-
-  <!-- CONTACT -->
   <section class="block contact" id="contact">
     <div class="wrap reveal">
       <span class="mono eyebrow">Contact</span>
